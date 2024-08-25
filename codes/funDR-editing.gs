@@ -59,5 +59,3 @@ function generateResponses() {
     }
   }
 }
-
-// test commit　once more
