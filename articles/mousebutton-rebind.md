@@ -21,4 +21,4 @@ googleで「マウス　キー操作　割り当て」などで調べると、�
 
 ### 操作
 - タスクトレイの中から<img src="image.png" width="02%">のアイコンを探し右クリック→Setupをクリック
-- ![alt text](image-1.png)この画面が基本の操作画面。
+- !この画面が基本の操作画面。[alt text](image-1.png)
