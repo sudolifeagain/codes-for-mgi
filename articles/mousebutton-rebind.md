@@ -16,4 +16,9 @@ googleで「マウス　キー操作　割り当て」などで調べると、�
 
 ### インストール
 - [窓の杜](https://forest.watch.impress.co.jp/docs/review/1483704.html)経由で[公式サイト](https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm)にアクセスし、Download: latest versionからファイルをダウンロードして開く
-- 
+- 規約に同意してインストールする
+-インストールが終わると自動的に起動し、タスクトレイの中に格納される
+
+### 操作
+-タスクトレイの中から<img src="image.png" width="02%">のアイコンを探し右クリック→Setupをクリック
+-
