@@ -8,6 +8,12 @@ published: false
 
 ## 概要
 特定のアプリケーション上のみにおいて、マウスの右クリックの操作にキー操作を割り当てたい。
+googleで「マウス　キー操作　割り当て」などで調べると、逆にマウス操作をキーボード上で再現するベクトルのものがヒットしてしまい、たどり着くのに時間がかかった。
 
-## 困ったこと
-googleで「マウス　キー操作　割り当て」などで調べると、
+## 解決
+検索クエリを「マウスボタン　割り当て」などに切り替えるとある程度目指している方向性の記事がヒットするようになった。
+参考にした記事がこれ：[text](https://forest.watch.impress.co.jp/docs/review/1483704.html)
+
+### インストール
+- [窓の杜](https://forest.watch.impress.co.jp/docs/review/1483704.html)経由で[公式サイト](https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm)にアクセスし、Download: latest versionからファイルをダウンロードして開く
+- 
