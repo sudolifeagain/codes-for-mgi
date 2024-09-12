@@ -12,7 +12,7 @@ published: false
 
 ## 実装
 - フォームの編集画面からスクリプトエディタに移動し、以下のコードを張り付ける
-```gas:totalcount.gs
+```gas:endFormCheck.gs
 function endFormCheck() {
   var LIMIT_NUMBER = 200; 
   var answer = FormApp.getActiveForm();
