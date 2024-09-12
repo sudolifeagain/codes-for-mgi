@@ -33,7 +33,7 @@ function endFormCheck() {
 <br/>
   以上
 
-  ## 感想
+## 感想
  - 思っていた数倍簡単だった
    ※参考にさせていただいたサイト：https://b.qrqrq.com/2023/01/17/google-form_function-num-of-people/
  - 機能を追加していくなら何があるか
