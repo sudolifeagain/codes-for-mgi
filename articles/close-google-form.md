@@ -38,6 +38,6 @@ function endFormCheck() {
    ※参考にさせていただいたサイト：https://b.qrqrq.com/2023/01/17/google-form_function-num-of-people/
  - 機能を追加していくなら何があるか
    - フォームの回答を締め切った場合にdiscordに通知を投げたい
-   - webhookかな
-   - チャンネルだといろんな人に通知行ってしまうので、スレッドが好ましい
+     - webhookかな
+     - チャンネルだといろんな人に通知行ってしまうので、スレッドが好ましい
    
