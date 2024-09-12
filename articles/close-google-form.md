@@ -14,16 +14,16 @@ published: false
 - フォームの編集画面からスクリプトエディタに移動し、以下のコードを張り付ける
 ```gas:totalcount.gs
 function endFormCheck() {
-  var LIMIT_COUNT = 200; //ここに人数の上限値を設定
-  var form = FormApp.getActiveForm();
+  var LIMIT_NUMBER = 200; 
+  var answer = FormApp.getActiveForm();
 
- if (form.getResponses().length >= LIMIT_COUNT) {
+ if (answer.getResponses().length >= LIMIT_NUMBER) {
     form.setAcceptingResponses(false);
   }
 }
 
 ```
-- 上限値は手動で入れ替えてください。
+- 上限値`(LIMIT_NUMBER)`は手動で入れ替えてください。
   -  変数で定義すれば動的に上限値を変更することもできそう
 - トリガー設定画面からトリガーを追加する
   - 実行する関数：endFormCheck
