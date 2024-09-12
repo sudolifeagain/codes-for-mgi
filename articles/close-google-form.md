@@ -8,4 +8,30 @@ published: false
 
 
 ## 概要
-あああ
+フォームの回答数をトリガーにしてgoogleフォームを自動で締め切りたい
+
+## 実装
+- フォームの編集画面からスクリプトエディタに移動し、以下のコードを張り付ける
+```gas:totalcount.gs
+function endFormCheck() {
+  var LIMIT_COUNT = 200; //ここに人数の上限値を設定
+  var form = FormApp.getActiveForm();
+
+ if (form.getResponses().length >= LIMIT_COUNT) {
+    form.setAcceptingResponses(false);
+  }
+}
+
+```
+- 上限値は手動で入れ替えてください。
+  -  変数で定義すれば動的に上限値を変更することもできそう
+- トリガー設定画面からトリガーを追加する
+  - 実行する関数：endFormCheck
+  - デプロイ時に実行：Head
+  - イベントのソースを選択：フォームから
+  - イベントの種類を選択：フォーム送信時
+ 
+  以上
+
+  ## 感想
+ - 思っていた数倍簡単だった
