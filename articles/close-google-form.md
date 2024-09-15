@@ -18,7 +18,7 @@ function endFormCheck() {
   var answer = FormApp.getActiveForm();
 
  if (answer.getResponses().length >= LIMIT_NUMBER) {
-    form.setAcceptingResponses(false);
+    answer.setAcceptingResponses(false);
   }
 }
 
