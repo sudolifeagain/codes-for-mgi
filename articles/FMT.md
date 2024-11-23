@@ -1,9 +1,9 @@
 ---
-title: ZennをGithubからDeployしてみる
+title: Zennの下書きFMT
 emoji: 😸
 type: tech
 topics: [Zenn, Github, Deploy, CLI]
 published: false
 ---
 
-from repository post test.
+edit this file to prepare for a new artile.
