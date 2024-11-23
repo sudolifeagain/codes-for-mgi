@@ -2,7 +2,7 @@
 title: Zennの下書きFMT
 emoji: 😸
 type: tech
-topics: [Zenn, Github, Deploy, CLI]
+topics: [Hogehoge, Hogehoge1]
 published: false
 ---
 
